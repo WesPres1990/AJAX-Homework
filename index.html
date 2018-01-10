@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Animal Buttons</title>
+
+  <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-md-8">
+            <button data-animal="cat">Cat</button>
+            <button data-animal="dog">Dog</button>
+            <button data-animal="bird">Bird</button>
+            <!--<div id="gifs-appear-here">
+            </div>-->
+            <!--<div id="buttons-view"></div>-->
+        </div>
+        <div class="col-md-4">
+            <form id="animal-form">
+                <label for="animal-input">Add an Animal</label>
+                <input type="text" id="animal-input"><br>
+                <!-- Button triggers new movie to be added -->
+                <input id="add-animal" type="submit" value="Add an Animal">
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <div id="gifs-appear-here"></div>
+        </div>
+    </div>
+
+  <!--jQuery-->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!--Javascript-->
+
+  <script src="assets/javascript/gif.js" type="text/javascript"></script>
+</body>
+
+</html>
